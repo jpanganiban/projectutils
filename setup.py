@@ -12,7 +12,7 @@ def install_requires():
     return install_requires
 
 console_scripts = [
-    'bootstrap.project = projectutils.core.main:main'
+    'bootstrap.project = projectutils.bootstrap.main:main'
 ]
 entry_points = {
     'console_scripts': console_scripts
