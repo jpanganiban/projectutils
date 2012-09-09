@@ -2,6 +2,17 @@
 
 Tired of repeating myself.
 
+##Installation
+
+    # virtualenv
+    python setup.py install
+
+    # system install
+    sudo python setup.py install
+
+    # develop install
+    python setup.py develop
+
 ##Bootstrap
 
 Creates project skeleton.
